@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
     s.dependency 	      'KLCPaaSWebRTC'
     s.source_files      = "KLCPaaSSDK.framework/Headers/*.h"
     s.ios.deployment_target   = '9.0'
+    s.ios.vendored_frameworks = 'CPaaSSDK.framework'
     s.preserve_paths = 'KLCPaaSSDK.framework/Frameworks/*.framework'
 
 
