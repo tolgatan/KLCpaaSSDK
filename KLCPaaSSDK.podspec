@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.author            = { 'Name' => 'tolgat@netrd.com.tr' }
     s.platform          = :ios
     s.source            = { :git => 'https://github.com/tolgatan/KLCpaaSSDK.git', :tag => '1.1.1'}
-    s.dependency 	'KLCPaaSWebRTC'
+    #s.dependency 	'KLCPaaSWebRTC'
     s.ios.deployment_target   = '9.0'
     s.vendored_frameworks = ['CPaaSSDK.framework',
       'CPaaSSDK.framework/SubFrameworks/CPUtilities.framework',
