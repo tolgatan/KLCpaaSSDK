@@ -1,15 +1,15 @@
 Pod::Spec.new do |s|
     s.name              = 'KLCPaaSSDK'
-    s.version           = '1.1.1'
+    s.version           = '1.1.3'
     s.summary           = 'KLCPaasSDK'
     s.homepage          = 'https://github.com/Kandy-IO/'
     s.license 		= { :type => 'MIT', :file => 'mit-license.txt'}
     s.author            = { 'Name' => 'tolgat@netrd.com.tr' }
     s.platform          = :ios
-    s.source            = { :git => 'https://github.com/tolgatan/KLCpaaSSDK.git', :tag => '1.1.1'}
+    s.source            = { :git => 'https://github.com/tolgatan/KLCpaaSSDK.git', :tag => '1.1.3'}
     #s.dependency 	'KLCPaaSWebRTC'
     s.ios.deployment_target   = '9.0'
-    s.vendored_frameworks = ['CPaaSSDK.framework',
+    s.vendored_frameworks = ['CPaaSSDK.framework','WebRTC.framework',
       'CPaaSSDK.framework/SubFrameworks/CPUtilities.framework',
       'CPaaSSDK.framework/SubFrameworks/CPAddressBookService.framework',
       'CPaaSSDK.framework/SubFrameworks/CPAuthenticationService.framework',
