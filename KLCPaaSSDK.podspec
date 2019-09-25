@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
     s.name              = 'KLCPaaSSDK'
-    s.version           = '1.1.5'
+    s.version           = '1.1.6'
     s.summary           = 'KLCPaasSDK'
     s.homepage          = 'https://github.com/Kandy-IO/'
     s.license 		= { :type => 'MIT', :file => 'mit-license.txt'}
     s.author            = { 'Name' => 'tolgat@netrd.com.tr' }
     s.platform          = :ios
-    s.source            = { :git => 'https://github.com/tolgatan/KLCpaaSSDK.git', :tag => '1.1.5'}
+    s.source            = { :git => 'https://github.com/tolgatan/KLCpaaSSDK.git', :tag => '1.1.6'}
     s.dependency 	'KLCPaaSWebRTC'
     s.ios.deployment_target   = '9.0'
     s.vendored_frameworks = ['CPaaSSDK.framework','WebRTC.framework',
@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
       'CPaaSSDK.framework/SubFrameworks/RestManager.framework']
     s.preserve_paths = 'CPaaSSDK.framework/SubFrameworks/*.framework'
     s.pod_target_xcconfig = {
-      'ENABLE_BITCODE' : 'NO',
-      'FRAMEWORK_SEARCH_PATHS' : '$(inherited) "${PODS_ROOT}/KLCPaaSWebRTC/Frameworks"',
-      'OTHER_LDFLAGS' : '$(inherited) -framework "WebRTC" -ObjC',
-      'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' : 'YES'
+      'ENABLE_BITCODE' => 'NO',
+      'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "${PODS_ROOT}/KLCPaaSWebRTC/Frameworks"',
+      'OTHER_LDFLAGS' => '$(inherited) -framework WebRTC -ObjC',
+      'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'
     }
 
 
