@@ -11,16 +11,16 @@ Pod::Spec.new do |s|
     #s.source_files      = 'KLCPaaSSDK.framework/Headers/*.h'
     s.ios.deployment_target   = '9.0'
     s.ios.vendored_frameworks = ['CPaaSSDK.framework',
-      'CPaaSSDK.framework/Frameworks/CPUtilities.framework',
-      'CPaaSSDK.framework/Frameworks/CPAddressBookService.framework',
-      'CPaaSSDK.framework/Frameworks/CPAuthenticationService.framework',
-      'CPaaSSDK.framework/Frameworks/CPCallService.framework',
-      'CPaaSSDK.framework/Frameworks/CPMessagingService.framework',
-      'CPaaSSDK.framework/Frameworks/CPPresenceService.framework',
-      'CPaaSSDK.framework/Frameworks/CPPushService.framework',
-      'CPaaSSDK.framework/Frameworks/NotificationEngine.framework',
-      'CPaaSSDK.framework/Frameworks/RestManager.framework']
-    s.preserve_paths = 'CPaaSSDK.framework/Frameworks/*.framework'
+      'CPaaSSDK.framework/SubFrameworks/CPUtilities.framework',
+      'CPaaSSDK.framework/SubFrameworks/CPAddressBookService.framework',
+      'CPaaSSDK.framework/SubFrameworks/CPAuthenticationService.framework',
+      'CPaaSSDK.framework/SubFrameworks/CPCallService.framework',
+      'CPaaSSDK.framework/SubFrameworks/CPMessagingService.framework',
+      'CPaaSSDK.framework/SubFrameworks/CPPresenceService.framework',
+      'CPaaSSDK.framework/SubFrameworks/CPPushService.framework',
+      'CPaaSSDK.framework/SubFrameworks/NotificationEngine.framework',
+      'CPaaSSDK.framework/SubFrameworks/RestManager.framework']
+    s.preserve_paths = 'CPaaSSDK.framework/SubFrameworks/*.framework'
     s.pod_target_xcconfig = {'ENABLE_BITCODE' => 'NO'}
 
 
