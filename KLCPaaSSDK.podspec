@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-    s.name              = 'KLCPaaSSDK'
-    s.version           = '1.1.8'
-    s.summary           = 'KLCPaasSDK'
+    s.name              = 'KLCPaaS'
+    s.version           = '1.1.9'
+    s.summary           = 'KLCPaaS'
     s.homepage          = 'https://github.com/Kandy-IO/'
     s.license 		      = { :type => 'MIT', :file => 'mit-license.txt'}
     s.author            = { 'Name' => 'tolgat@netrd.com.tr' }
