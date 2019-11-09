@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
     s.name              = 'KLCPaaS'
-    s.version           = '1.2.1'
+    s.version           = '1.2.2'
     s.summary           = 'KLCPaaS'
     s.homepage          = 'https://github.com/Kandy-IO/'
     s.license 		      = { :type => 'MIT', :file => 'mit-license.txt'}
     s.author            = { 'Name' => 'tolgat@netrd.com.tr' }
     s.platform          = :ios
-    s.source            = { :git => 'https://github.com/tolgatan/KLCpaaSSDK.git', :tag => '1.2.1'}
+    s.source            = { :git => 'https://github.com/tolgatan/KLCpaaSSDK.git', :tag => '1.2.2'}
     s.dependency 	'KLCPaaSWebRTC'
     s.ios.deployment_target   = '9.0'
     s.library = ['c++','icucore','z','sqlite3','stdc++']
