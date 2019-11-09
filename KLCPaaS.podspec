@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     s.preserve_paths = 'CPaaSSDK.framework/SubFrameworks/*.framework'
     s.pod_target_xcconfig = {
       'ENABLE_BITCODE' => 'NO',
-      'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "${PODS_ROOT}/KLCPaaSWebRTC/Frameworks"',
+      'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "${PODS_ROOT}/KLCPaaS/Frameworks" "${PODS_ROOT}/KLCPaaS/CPaaSSDK.framework/SubFrameworks"',
       'OTHER_LDFLAGS' => '$(inherited) -framework WebRTC -ObjC',
       'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'
     }
