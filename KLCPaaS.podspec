@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name              = 'KLCPaaS'
-    s.version           = '1.1.9'
+    s.version           = '1.2.0'
     s.summary           = 'KLCPaaS'
     s.homepage          = 'https://github.com/Kandy-IO/'
     s.license 		      = { :type => 'MIT', :file => 'mit-license.txt'}
